@@ -24,6 +24,9 @@ DEBUG = True
 
 TEMPLATE_DEBUG = True
 
+## Path to my project's template directory
+TEMPLATE_DIRS = [os.path.join(BASE_DIR, 'templates')]
+
 ALLOWED_HOSTS = []
 
 
