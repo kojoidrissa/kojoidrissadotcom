@@ -1,0 +1,39 @@
+{% load staticfiles %}
+<html>
+    <head>
+        <!-- Bootstrap installation -->
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+
+        <!-- Import 'Merriweather' font -->
+        <link href="http://fonts.googleapis.com/css?family=Merriweather&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+
+        <!-- Bring in MY stylesheet -->
+        <link rel="stylesheet" href="{% static "css/blog.css" %}">
+
+
+
+
+        <title>Kojo's Django Blog</title>
+    </head>
+
+    <body>
+        <div class="page-header">
+            {% if user.is_authenticated %}
+                <!-- Adds a new post, only if user is logged in -->
+                <a href="{% url "post_new" %}" class="top-menu" title = "New Blog Post"><span class="glyphicon glyphicon-plus"></span></a>
+                <a href="{% url "post_draft_list" %}" class="top-menu" title = "Show Drafts"><span class="glyphicon glyphicon-edit"></span></a>
+            {% endif %}
+            <h1><a href="/">Kojo's Django Girls Blog</a></h1>
+        </div>
+        <div class="content container">
+            <div class="row">
+                <div class="col-md-8">
+                {% block content %}
+                {% endblock %}
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

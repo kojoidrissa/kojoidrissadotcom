@@ -1,0 +1,59 @@
+/*I know there's a preferred 'style' for ordering CSS. I need to look it up*/
+h1 a {
+    color: #ff0000;
+    font-family: 'Merriweather';
+}
+
+body {
+    padding-left: 15px;
+}
+
+/*new CSS!*/
+.page-header {
+    background-color: #ff0000;
+    margin-top: 0;
+    padding: 20px 20px 20px 40px;
+}
+
+.page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
+    color: #ffffff;
+    font-size: 36pt;
+    text-decoration: none;
+}
+
+.content {
+    margin-left: 40px;
+}
+
+/*I should probably remove the 'cursive' here*/
+h1, h2, h3, h4 {
+    font-family: 'Merriweather', cursive;
+}
+
+.date {
+    float: right;
+    color: #828282;
+}
+
+.save {
+    float: right;
+}
+
+.post-form textarea, .post-form input {
+    width: 100%;
+}
+
+.top-menu, .top-menu:hover, .top-menu:visited {
+    color: #ffffff;
+    float: right;
+    font-size: 26pt;
+    margin-right: 20px;
+}
+
+.post {
+    margin-bottom: 70px;
+}
+
+.post h1 a, .post h1 a:visited {
+    color: #000000;
+}
