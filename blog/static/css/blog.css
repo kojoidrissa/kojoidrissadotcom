@@ -10,13 +10,13 @@ body {
 
 /*new CSS!*/
 .page-header {
-    background-color: #ff0000;
+    background-color: #800000; /*Maroon*/
     margin-top: 0;
     padding: 20px 20px 20px 40px;
 }
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
-    color: #ffffff;
+    color: #fff;
     font-size: 36pt;
     text-decoration: none;
 }
@@ -31,7 +31,7 @@ h1, h2, h3, h4 {
 }
 
 .date {
-    float: right;
+    /*float: right;*/
     color: #828282;
 }
 
