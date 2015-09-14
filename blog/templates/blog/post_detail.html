@@ -7,14 +7,17 @@
                 {{ post.published_date }}
             </div>
         {% else %}
-        <div class="date">
-            <a class="btn btn-default" href="{% url "blog.views.post_publish" pk=post.pk %}">Publish</a>
-        </div>
+        <a class="btn btn-default" href="{% url "blog.views.post_publish" pk=post.pk %}">Publish</a>
         {% endif %}
-        <!-- Link for "Edit" icon -->
+
+        <!-- If user is authenticated -->
         {% if user.is_authenticated %}
+        <!-- Link for "Edit" icon -->
         <a class="btn btn-default" href="{% url "post_edit" pk=post.pk %}" title = "Edit Post"><span class="glyphicon glyphicon-pencil"></span></a>
+        <!-- Link to remove post -->
+        <a class="btn btn-default" href="{% url "post_remove" pk=post.pk %}"><span class="glyphicon glyphicon-remove"></span></a>
         {% endif %}
+
         <h1>{{ post.title }}</h1>
         <p>{{ post.text|linebreaks }}</p>
     </div>
