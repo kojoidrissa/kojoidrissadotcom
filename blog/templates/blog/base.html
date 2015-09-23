@@ -24,6 +24,7 @@
             <a href="{% url "post_new" %}" class="top-menu" title = "New Blog Post"><span class="glyphicon glyphicon-plus"></span></a>
             <a href="{% url "post_draft_list" %}" class="top-menu" title = "Show Drafts"><span class="glyphicon glyphicon-edit"></span></a>
             {% else %}
+            <!-- If not logged in, show the login(lock) glyphicon -->
             <a href="{% url "django.contrib.auth.views.login" %}" class="top-menu"><span class="glyphicon glyphicon-lock"></span></a>
             {% endif %}
             <h1><a href="{% url "blog.views.post_list" %}">Kojo Idrissa's Blog</a></h1>
