@@ -23,6 +23,8 @@
             <!-- Shows options to add a new post or show a list of draft posts, only if user is logged in -->
             <a href="{% url "post_new" %}" class="top-menu" title = "New Blog Post"><span class="glyphicon glyphicon-plus"></span></a>
             <a href="{% url "post_draft_list" %}" class="top-menu" title = "Show Drafts"><span class="glyphicon glyphicon-edit"></span></a>
+            <!-- Greets user, provides logout link -->
+            <p class="top-menu">Hello {{ user.username }}<small> (<a href="{% url "django.contrib.auth.views.logout" %}">Log out</a>)</small></p>
             {% else %}
             <!-- If not logged in, show the login(lock) glyphicon -->
             <a href="{% url "django.contrib.auth.views.login" %}" class="top-menu"><span class="glyphicon glyphicon-lock"></span></a>
