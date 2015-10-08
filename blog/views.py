@@ -74,12 +74,14 @@ def add_comment_to_post(request, pk):
         form = CommentForm()
     return render(request, 'blog/add_comment_to_post.html', {'form': form})
 
+#Allows comments to be approved
 @login_required
 def comment_approve(request, pk):
     comment = get_object_or_404(Comment, pk=pk)
     comment.approve()
     return redirect('blog.views.post_detail', pk=comment.post.pk)
 
+#Allows comments to be deleted
 @login_required
 def comment_remove(request, pk):
     comment = get_object_or_404(Comment, pk=pk)
