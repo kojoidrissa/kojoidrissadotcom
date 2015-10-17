@@ -1,5 +1,5 @@
 {% extends "blog/base.html" %}
-
+{% load markup %}
        
 <!-- New template, extending the blog/base.html template -->
 {% block content %}
@@ -9,7 +9,7 @@
                 <p>published: {{ post.published_date }}</p>
             </div>
             <h1><a href="{% url "post_detail" pk=post.pk %}">{{ post.title }}</a></h1>
-            <p>{{ post.text|linebreaks }}</p>
+            <p>{{ post.text|markdown }}</p>
             <!-- Make APPROVED comment count visible for each post listed -->
             <a href="{% url "blog.views.post_detail" pk=post.pk %}">Comments: {{ post.approved_comments.count }}</a>
         </div>
