@@ -20,7 +20,7 @@
         {% endif %}
 
         <h1>{{ post.title }}</h1>
-        <p>{{ post.text|linebreaks }}</p>
+        <p>{{ post.text|markdown }}</p>
     </div>
 
     <!-- Makes comments visible -->
