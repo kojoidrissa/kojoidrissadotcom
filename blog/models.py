@@ -9,6 +9,10 @@ class Post(models.Model):
             default=timezone.now)
     published_date = models.DateTimeField(
             blank=True, null=True)
+    #Add last_edited_date to model
+    #modify templates to display created_date & last_edited_date
+    #see https://github.com/trailhawks/lawrencetrailhawks/blob/master/blog/models.py#l34
+    #for guidance
 
     def publish(self):
         self.published_date = timezone.now()
