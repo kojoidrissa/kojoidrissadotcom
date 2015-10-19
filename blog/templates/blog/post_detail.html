@@ -6,6 +6,7 @@
         {% if post.published_date %}
             <div class="date">
                 {{ post.published_date }}
+                <!-- If post.last_edited_date > post.created_date, show "modified" -->
             </div>
         {% else %}
         <a class="btn btn-default" href="{% url "blog.views.post_publish" pk=post.pk %}">Publish</a>
