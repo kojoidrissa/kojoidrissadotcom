@@ -1,3 +1,3 @@
-#My blog, via the [Django Girls tutorial](http://tutorial.djangogirls.org/en/index.html)
+#My blog, based on the [Django Girls tutorial](http://tutorial.djangogirls.org/en/index.html)
 
-I'll probably use this code as the foundation for my personal site's blog.
+This is the code for my personal site's blog. I've made some small modifications from the original Django Girls Tutorial and Extensions. I'll probably CONTINUE that trend.
