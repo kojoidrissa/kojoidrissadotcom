@@ -1,0 +1,15 @@
+Verbose: A 2015 Holiday Season retrospective
+
+One thing I know about myself is I'm verbose. That's a warning.
+
+I'm writing this on 2016-01-02 at 04:01:08 or 2016-01-02T10:01:08+00:00 for the timezone sticklers.  The "holiday season" here in the US is wrapping up. It's been fairly shitty for me and a lot of people around me.
+
+I've got at LEAST 3 friends who're going through relationships ending or that have recently ended. By "relationships", I'm talking living together/engaged/married-level relationships. Not just 'dating'. At least one other friend has had a semi-sideways relationship go further sideways, while another...well, I don't know WHAT'S going on with them, but from the look on their face as they semi-described it, it wasn't good. That's just off the top of my head at 4am. And that doesn't include all the friends who're single during the WORST time of the year (at least in the US) to BE single. You might THINK Valentine's Day is worse, but most of us know that's a fake holiday. And no one's family gets together for Valentine's Day, to publicly opine on why you aren't engaged, married, pregnant, a parent, or as successful as your sister/brother/cousin, etc. Mind you, a lot of these relatives HATE the relationships they're in. Which makes you wonder if the just hate *YOU* and want you to suffer like they are. And you don't have those same disapproving family members sleeping on your sofa and crowding your bathroom. Valentine's Day is just a day of chocolate, expensive dinner reservations and sex. In PRIVATE. Usually.
+
+Add to that the people who're looking for jobs, something I've just recently resolved myself. And those friends *(and relatives)* are here (Houston, TX, USA) AND in other cities & countries. Compound that local job hunt with the fact that Houston is a city who's economy is driven by oil prices. Which are below $40/barrel and dropping.
+
+As for me, this season is often not great. My grandmother, an aunt and a great-aunt all died right around Thanksgiving on various years. And I've already talked about the [near-Christmas birthdays](http://kojoidrissa.com/post/36/) of passed-away loved ones I got blindsided by as a result of experimenting with Facebook. Add to that some personal drama and it's been DECIDEDLY sub-optimal for the past month or so. And that's following up 3 months of mostly suckage. The new job is great, but finding it took it's toll.
+
+So, what's all this drama got to do with being verbose? A LOT of communication on these topics has happened via text message. And I've realized I tend to write LONG text messages. And LOTS of them. Probably too long and too many for a lot of people. But you know what? I think I'm ok with that. I am who I am. And as my friends and I **go through it** this holiday season, sometimes it's important to just know who you are, and work with that. You may not be skinny enough or rich enough or successful enough or whatever. But you *ARE* you. Don't be afraid to own that.
+
+I'd considered writing a "2015: The Year In Review" post. And I still MAY at some point. But, since the year decided to 'Turn Up' near the end, I figured this was sufficient for now.
